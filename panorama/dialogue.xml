@@ -1,0 +1,20 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dialogue.css" />
+	</styles>
+
+    <scripts>
+        <include src="file://{resources}/scripts/dialogue.js" />
+    </scripts>
+
+    <Panel class="Dialogue">
+
+    	<DOTAHeroImage heroid="10" heroimagestyle="landscape" id="Potretti" />
+    	<Label text="{s:heroname}" id="Otsake" />
+    	<Label onload="LoadText()" id="Teksti" />
+    	<Button class="ok" onactivate="PressedOkay()">
+    		<Label text=" OK " />
+    	</Button>
+
+    </Panel>
+</root>

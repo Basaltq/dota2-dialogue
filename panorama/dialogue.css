@@ -1,0 +1,62 @@
+.Dialogue
+{
+	border-radius: 10px;
+	visibility: visible;
+	border-width: 2px;
+	border-color: #FFFFFF;
+	border-style: solid;
+	background-color: rgb(15, 10, 40);
+
+	width: 620px;
+	height: 300px;
+
+	horizontal-align: right;
+	vertical-align: bottom;
+	margin: 150px;
+}
+
+#Otsake
+{
+	text-shadow: 2px 2px 8px 3.0 #333333b0;
+	position: 170px 40px 0px;
+	font-size: 32;
+	font-family: Goudy Trajan Medium;
+	color:	rgb(200, 220, 240);
+	
+
+}
+
+#Teksti
+{
+	position: 20px 120px 0px;
+	width: 600px;
+	font-size: 20;
+
+	color: white;
+}
+
+#Potretti
+{
+	position: 20px 20px 0px;
+	border: 2px solid #AAAAAA;
+	/*width: 256px;
+	height: 144px;*/
+}
+
+.ok
+{
+	color: #1F1F1F;
+	border: 2px solid #AAAAAA;
+	border-radius: 2px;
+	margin: 14px;
+	font-size: 20;
+	background-color: #FFFFFF;
+	vertical-align: bottom;
+	horizontal-align: right;
+	margin: 15px;
+}
+
+.nakymaton
+{
+	visibility:	collapse;
+}
